@@ -1,0 +1,28 @@
+{
+  "name": "test.app",
+  "version": "1.0.0",
+  "description": "test app",
+  "author": {
+    "name": ""
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "config": {
+    "type": "app",
+    "category": "apps",
+    "backgroundColor": "#c12226",
+    "name": "Test",
+    "legacy": true,
+    "description": "test app",
+    "icons": {
+      "paths": {},
+      "states": {
+        "normal": "images/logo.png",
+        "active": "images/logo.png"
+      }
+    },
+    "options": []
+  }
+}
