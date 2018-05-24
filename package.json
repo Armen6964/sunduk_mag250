@@ -17,15 +17,13 @@
     "legacy": true,
     "description": "test app",
     "icons": {
-      "paths": {},
+      "paths": {
+          "img/"
+       },
       "states": {
         "normal": "img/logo.png",
         "active": "img/logo.png"
       }
-    },
-    "options": [
-      "backgroundСolor": "#c12226",
-      "icons": "img"
-    ]
+    }
   }
 }
