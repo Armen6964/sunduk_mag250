@@ -1,0 +1,22 @@
+{
+	"name": "test",
+	"version": "1.0.0",
+	"description": "0000",
+	"author": {
+		"name": "test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/HackArmen/sunduk_mag250.git"
+	}
+	"options": [
+		{
+			"name": "appId",
+			"desc": "application test"
+		}
+	],
+	"config": {
+		"backgroundColor": "#667da2",
+		"icons": "images"
+	}
+}
