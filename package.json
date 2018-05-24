@@ -1,9 +1,9 @@
 {
   "name": "test.app",
-  "version": "1.0.0",
+  "version": "1.1.5",
   "description": "test app",
   "author": {
-    "name": ""
+    "name": "Armen"
   },
   "repository": {
     "type": "git",
@@ -19,10 +19,13 @@
     "icons": {
       "paths": {},
       "states": {
-        "normal": "images/logo.png",
-        "active": "images/logo.png"
+        "normal": "img/logo.png",
+        "active": "img/logo.png"
       }
     },
-    "options": []
+    "options": [
+      "backgroundСolor": "#c12226",
+      "icons": "img"
+    ]
   }
 }
