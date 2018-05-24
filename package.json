@@ -1,32 +1,67 @@
 {
-	"name": "tt",
-	"version": "1.1.50",
-	"description": "MyApp",
-	"author": {
-		"name": "StalkerApps"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/HackArmen/sunduk_mag250.git"
-	},
-	"config": {
-		"type": "app",
-		"category": "apps",
-		"backgroundColor": "#526582",
-		"name": "T app",
-		"legacy": true,
-		"description": "Myapp",
-		"icons": {
-			"paths": {
-				"480": "img/480/",
-				"576": "img/576/",
-				"720": "img/720/",
-				"1080": "img/1080/"
-			},
-			"states": {
-				"normal": "icons/2015.png",
-				"active": "icons/2015.focus.png"
-			}
-		}
-	}
+    "name": "hoho",
+    "version": "5.1.1-r20170216",
+    "description": "test",
+    "author": {
+        "name": "Infomir",
+        "email": "support@infomir.eu"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HackArmen/sunduk_mag250"
+    },
+    "dependencies": {
+        "magcore-app-tv": "2.2.8",
+        "magcore-app-video-club": "1.5.11",
+        "magcore-app-audio-club": "1.4.7",
+        "magcore-app-radio": "1.2.2",
+        "magcore-app-karaoke": "1.2.0",
+        "magcore-app-explorer": "1.2.5",
+        "magcore-app-downloads": "1.1.0",
+        "magcore-app-records": "1.1.4",
+        "magcore-app-weather": "1.3.1",
+        "magcore-app-browser": "1.3.7",
+        "magcore-app-personal-account": "1.0.3",
+        "magcore-app-settings": "1.3.13",
+        "magcore-app-lines": "2.1.4",
+        "magcore-app-sudoku": "2.1.3",
+        "magcore-app-memory": "2.1.3",
+        "magcore-app-2048": "2.1.4",
+        "magcore-app-auth-stalker": "2.2.4",
+        "magcore-app-browser-engine": "1.3.6",
+        "magcore-app-launcher": "1.3.6",
+        "magcore-app-player": "1.4.2",
+        "magcore-app-photo-viewer": "0.9.2",
+        "magcore-app-task-manager": "1.2.3",
+        "magcore-core": "1.10.7",
+        "magcore-osd-access-control": "1.3.0",
+        "magcore-osd-advertising": "1.0.2",
+        "magcore-osd-base": "1.1.5",
+        "magcore-osd-input": "1.2.0",
+        "magcore-osd-keyboard": "1.1.21",
+        "magcore-osd-pip": "1.1.4",
+        "magcore-osd-tv": "1.2.2",
+        "magcore-plugin-backend-audio-stalker": "1.0.2",
+        "magcore-plugin-backend-tv-stalker": "1.2.1",
+        "magcore-plugin-backend-video-stalker": "1.1.0",
+        "magcore-plugin-browser": "1.3.9",
+        "magcore-plugin-download-manager": "1.0.5",
+        "magcore-plugin-fs": "1.1.3",
+        "magcore-plugin-network": "1.1.0",
+        "magcore-plugin-pvr": "2.0.3",
+        "magcore-plugin-spvr": "2.0.1",
+        "magcore-plugin-ufs": "1.1.0",
+        "magcore-plugin-ufs-json": "1.1.0",
+        "magcore-plugin-upnp": "1.1.2",
+        "magcore-theme": "1.0.5",
+        "magcore-theme-chocolate": "1.2.20",
+        "magcore-theme-graphite": "1.2.20"
+    },
+    "keywords": [
+        "magcore",
+        "applications",
+        "base",
+        "stalker"
+    ],
+    "license": "GPL-3.0"
 }
