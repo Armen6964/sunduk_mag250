@@ -1,22 +1,28 @@
 {
-	"name": "test",
-	"version": "1.0.0",
-	"description": "0000",
-	"author": {
-		"name": "test"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/HackArmen/sunduk_mag250.git"
-	}
-	"options": [
-		{
-			"name": "appId",
-			"desc": "application test"
-		}
-	],
-	"config": {
-		"backgroundColor": "#667da2",
-		"icons": "images"
-	}
+  "name": "test.app",
+  "version": "1.0.0",
+  "description": "test app",
+  "author": {
+    "name": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HackArmen/sunduk_mag250.git"
+  },
+  "config": {
+    "type": "app",
+    "category": "apps",
+    "backgroundColor": "#c12226",
+    "name": "Test",
+    "legacy": true,
+    "description": "test app",
+    "icons": {
+      "paths": {},
+      "states": {
+        "normal": "images/logo.png",
+        "active": "images/logo.png"
+      }
+    },
+    "options": []
+  }
 }
